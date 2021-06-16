@@ -1,0 +1,11 @@
+@import "../../../assets/scss/common/mixins";
+
+.cases {
+  &__element {
+
+  }
+
+  &__text{
+    @include commonText
+  }
+}
