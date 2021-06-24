@@ -1,0 +1,19 @@
+@import "./reset";
+@import "./components/input";
+@import "./common/mixins";
+@import "./common/variables";
+
+.form {
+  background-color: #F5F5FA;
+  padding: 20px;
+
+  &__heading {
+    @include heading_l;
+    color: $red;
+  }
+
+  &__input {
+    margin: 0 0 10px 0;
+  }
+}
+

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./css/contacts.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+<div class="contacts">
+    <div class="form">
+        <h2 class="form__heading">Ми хотіли б Вам допомогти</h2>
+        <div class="form__input">
+            @@include('../components/input/input.html', {
+                "placeholder": "'Iм’я'",
+                "iconClass": "'input__icon input__icon_man'",
+            })
+        </div>
+        <h4 class="form__subheading">Як вам відповісти?</h4>
+        <div class="form__input">
+            @@include('../components/input/input.html', {
+                "placeholder": "'Номер телефона'",
+                "iconClass": "'input__icon input__phone'",
+            })
+        </div>
+        <div class="form__input">
+            @@include('../components/input/input.html', {
+                "placeholder": "'Чи email'",
+                "iconClass": "'input__icon input__email'",
+            })
+        </div>
+    </div>
+</div>
+</body>
+</html>

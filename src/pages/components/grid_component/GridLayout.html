@@ -1,3 +1,9 @@
-<section>
-
+<section class="grid-container">
+    <div class="grid-container__title">@@title</div>
+    @@for (var i = 0; i < 6; i++) {
+        @@include('./GridItem.html', {
+            "text": "Супровід проекту з купівлі-продажу сільськогосподарської продукції",
+            "source": "Hillel IT School"
+        })
+    }
 </section>
